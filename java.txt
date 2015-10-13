@@ -1,0 +1,106 @@
+public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int opt=0, total=0, Places[][] = new int[10][4], copy[][] = new int[10][5];
+        int Array[][] = {{101316120, 82, 65, 98, 0}, {101316123, 95, 75, 60, 0}, {101316212, 89, 82, 64, 0}, {101316213, 61, 69, 86, 0}, {101316201, 49, 68, 90, 0}, {101316101, 73, 82, 65, 0}, {101316222, 73, 49, 80, 0}, {101316105, 82, 72, 60, 0}, {101316226, 80, 60, 70, 0}, {101316217, 70, 60,80, 0}};
+        //Array{學號, 國文, 英文, 數學, 總分}
+        System.out.print("學號\t\t國文\t英文\t數學\n");
+        for(int i=0; i<10; i++)
+        {
+            for(int j=0; j<4; j++)
+            {
+                System.out.print(Array[i][j] + "\t");
+                copy[i][j] = Array[i][j];
+            }
+            System.out.print("\n");
+        }
+        while(opt != -1)
+        {
+            System.out.print("1)算總分 2)算名次 3)顯示各科前三名 -1)Exit ： ");
+            opt = scanner.nextInt();
+            for(int i=0; i<10; i++)
+            {
+                for(int j=1; j<=3; j++)
+                    total = total + copy[i][j];
+                Array[i][4] = total;
+                copy[i][4] = total;
+                total = 0;
+            }
+            if(opt == 1)
+            {
+                System.out.print("學號\t\t國文\t英文\t數學\t總分\n");
+                for(int i=0; i<10; i++)
+                {
+                    for(int j=0; j<5; j++)
+                        System.out.print(copy[i][j] + "\t");
+                    System.out.print("\n");
+                }
+            }
+            else if(opt == 2)
+            {
+                int places[] = new int[5], i, j, same=0, comp=0, temp=0;
+                for(i=0; i<10; i++)
+                {
+                    for(j=i+1; j<10; j++)
+                        if(Array[i][4] < Array[j][4])
+                        {
+                            places = Array[i];
+                            Array[i] = Array[j];
+                            Array[j] = places;
+                        }
+                    for(int k=0; k<10; k++)
+                        if(Array[i][4] == copy[k][4] && Places[k][3] == 0)
+                        {
+                            if(same == copy[k][4])
+                            {
+                                Places[k][3] = comp;
+                                temp++;
+                            }
+                            else
+                            {
+                                comp = comp + temp;
+                                Places[k][3] = ++comp;
+                                temp = 0;
+                            }
+                            same = Array[i][4];
+                            break;
+                        }
+                }
+                System.out.print("學號\t\t總分\t名次\n");
+                for(i=0; i<10; i++)
+                {
+                    System.out.println(copy[i][0] + "\t" + copy[i][4] + "\t" +Places[i][3]);
+                    Places[i][3] = 0;
+                }
+            }
+            else if(opt == 3)
+            {
+                int max[] = new int[4], i, j;
+                System.out.print("各科前三名：\n\t國文\t\t英文\t\t數學\n");
+                for(int k=1; k<=3; k++)
+                {
+                    for(i=0; i<10; i++)
+                    {
+                        for(j=i+1; j<10; j++)
+                            if(Array[i][k] < Array[j][k])
+                            {
+                                max = Array[i];
+                                Array[i] = Array[j];
+                                Array[j] = max;
+                            }
+                        Places[i][k-1] = Array[i][0];
+                    }
+                }
+                for(i=0; i<3; i++)
+                {
+                    System.out.print((i+1) + "\t");
+                    for(j=0; j<3; j++)
+                        System.out.print(Places[i][j] + "\t");
+                    System.out.print("\n");
+                }
+            }
+            else if(opt == -1)
+                break;
+            else
+                System.out.println("無此選項!!");
+        }
+    }
