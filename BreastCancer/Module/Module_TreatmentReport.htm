@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Module_TreatmentReport</title>
+</head>
+
+<style type="text/css">
+        #css_table
+        {
+            display: table;
+        }
+        .css_tr
+        {
+            display: table-row;
+        }
+        .css_td
+        {
+            display: table-cell;
+        }
+ </style>
+
+<body>
+    <div id="div_Module_TreatmentReport">
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_DateofSurgery">
+                    &nbsp; 手術日期</label>
+                <input id="tx_DateofSurgery" name="tx_DateofSurgery" type="text" />
+            </div>
+               
+            <div class="css_td">
+                <label for="tx_TreatingPhysicianName">
+                    &nbsp; 治療醫師姓名</label>
+                <input id="tx_TreatingPhysicianName" name="tx_TreatingPhysicianName" type="text" />
+            </div>
+        </div>
+        
+        <div class="css_tr">
+                <label for="dl_Treatment">
+                    &nbsp; 治療方式</label>
+                    <select id="dl_Treatment">
+                        <option id="dl_Treatment_1">手術</option>
+                        <option id="dl_Treatment_2">化療</option>
+                        <option id="dl_Treatment_3">放療</option>
+                        <option id="dl_Treatment_4">中藥</option>
+                        <option id="dl_Treatment_5">免疫</option>
+                        <option id="dl_Treatment_6">介入</option>
+                        <option id="dl_Treatment_7">針對性治療</option>
+                        <option id="dl_Treatment_8">止痛治療</option>
+                    </select>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="dl_Shape">
+                    &nbsp; 腫瘤形狀</label>
+                    <select id="dl_Shape">
+                        <option id="dl_Shape_1">圓形</option>
+                        <option id="dl_Shape_2">橢圓形</option>
+                        <option id="dl_Shape_3">分葉狀</option>
+                        <option id="dl_Shape_4">不規則的</option>
+                    </select>
+            </div>
+            
+            <div class="css_td">
+                <label for="dl_Margins">
+                    &nbsp; 腫瘤邊界</label>
+                    <select id="dl_Margins">
+                        <option id="dl_Margins_1">外切</option>
+                        <option id="dl_Margins_2">葉狀</option>
+                        <option id="dl_Margins_3">隱蔽</option>
+                        <option id="dl_Margins_4">模糊</option>
+                        <option id="dl_Margins_5">針狀的</option>
+                    </select>
+            </div>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="dl_Density">
+                    &nbsp; 腫瘤密度</label>
+                    <select id="dl_Density">
+                        <option id="dl_Density_1">高</option>
+                        <option id="dl_Density_2">一般</option>
+                        <option id="dl_Density_3">低</option>
+                        <option id="dl_Density_4"> 含脂肪</option>
+                    </select>
+            </div>
+            
+            <div class="css_td">
+                <label for="dl_Distribution">
+                    &nbsp; 腫瘤分佈</label>
+                    <select id="dl_Distribution">
+                        <option id="dl_Distribution_1">分組和群集</option>
+                        <option id="dl_Distribution_2">線性</option>
+                        <option id="dl_Distribution_3">節段性</option>
+                        <option id="dl_Distribution_4">區域</option>
+                        <option id="dl_Distribution_5">分散的</option>
+                    </select>
+            </div>
+        </div>
+        
+         <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_Size">
+                    &nbsp; 腫瘤大小(mm)</label>
+                <input id="tx_Size" name="tx_Size" type="text" />
+            </div>
+               
+            <div class="css_td">
+                <label for="tx_Impression">
+                    &nbsp; 診斷建議</label>
+                <textarea id="tx_Impression" name="tx_Impression" cols="35" rows="4"></textarea>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>

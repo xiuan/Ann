@@ -1,0 +1,17 @@
+<XML>
+  <tx_PatientName>王小美</tx_PatientName>
+  <tx_DateofBirth>1977/04/25</tx_DateofBirth>
+  <rd_AdministrativeSex_M>false</rd_AdministrativeSex_M>
+  <rd_AdministrativeSex_F>true</rd_AdministrativeSex_F>
+  <tx_PatientAddress>花蓮市中山路一段三巷190號</tx_PatientAddress>
+  <tx_PhoneNumber>0912123456</tx_PhoneNumber>
+  <opt_Blood_4>AB</opt_Blood_4>
+  <tx_Height>160</tx_Height>
+  <tx_Weight>50</tx_Weight>
+  <opt_Smoking_1>從不吸煙</opt_Smoking_1>
+  <tx_DrinkingNumber>0</tx_DrinkingNumber>
+  <opt_DrinkingFrequency_9>少於1天/月</opt_DrinkingFrequency_9>
+  <tx_PrincipalResultInterpreter>建議進行乳房攝影檢查</tx_PrincipalResultInterpreter>
+  <opt_Treatment_2>化療</opt_Treatment_2>
+  <tx_DiagnosisDate>2013/04/25</tx_DiagnosisDate>
+</XML>

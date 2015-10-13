@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codes>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-2" displayName="醫令編碼" objectID="tx_PlacerOrderNumber" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-3" displayName="部門編碼" objectID="tx_FillerOrderNumber" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-7" displayName="觀察日期" objectID="tx_ObservationDateTime" dataType="TEXT" format="yyyyMMdd">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-8" displayName="觀察結束日期" objectID="tx_ObservationEndDateTime" dataType="TEXT" format="yyyyMMdd">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-13" displayName="臨床資訊" objectID="tx_RelevantClinicalInformation" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-22" displayName="檢驗結果日期" objectID="tx_ResultsRptStatusChng-DateTime" dataType="TEXT" format="yyyyMMdd">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-24" displayName="診斷編碼" objectID="tx_DiagnosticServSectID" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-25" displayName="結果狀態" objectID="tx_ResultStatus" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-32" displayName="主訴" objectID="tx_PrincipalResultInterpreter" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-34" displayName="檢驗人員" objectID="tx_Technician" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="OBR-36" displayName="排程時間" objectID="tx_ScheduledDateTime" dataType="TEXT" format="yyyyMMdd">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR22.01.022" displayName="診斷醫師姓名" objectID="tx_DiagnosticianName" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR42.02.012" displayName="診斷日期" objectID="tx_DiagnosisDate" dataType="TEXT" format="yyyyMMdd">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.05.003" displayName="乳房超音波檢查" objectID="dl_BreastUltrasoundExamination" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.1" displayName="正常" objectID="dl_BreastUltrasoundExamination_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.2" displayName="缺失" objectID="dl_BreastUltrasoundExamination_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.3" displayName="增厚" objectID="dl_BreastUltrasoundExamination_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.4" displayName="腫塊" objectID="dl_BreastUltrasoundExamination_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.5" displayName="壓痛" objectID="dl_BreastUltrasoundExamination_5" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.6" displayName="乳腺增生" objectID="dl_BreastUltrasoundExamination_6" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.7" displayName="一個纖維瘤" objectID="dl_BreastUltrasoundExamination_7" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.8" displayName="多個纖維瘤" objectID="dl_BreastUltrasoundExamination_8" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.9" displayName="結節" objectID="dl_BreastUltrasoundExamination_9" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.10" displayName="溢液" objectID="dl_BreastUltrasoundExamination_10" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.003" code="HR51.05.003.11" displayName="乳腺癌" objectID="dl_BreastUltrasoundExamination_11" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.05.007" displayName="電腦斷層結果" objectID="dl_CT" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.1" displayName="正常" objectID="dl_CT_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.2" displayName="缺失" objectID="dl_CT_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.3" displayName="增厚" objectID="dl_CT_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.4" displayName="腫塊" objectID="dl_CT_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.5" displayName="壓痛" objectID="dl_CT_5" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.6" displayName="乳腺增生" objectID="dl_CT_6" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.7" displayName="一個纖維瘤" objectID="dl_CT_7" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.8" displayName="多個纖維瘤" objectID="dl_CT_8" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.9" displayName="結節" objectID="dl_CT_9" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.10" displayName="溢液" objectID="dl_CT_10" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.05.007" code="HR51.05.007.11" displayName="乳腺癌" objectID="dl_CT_11" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR55.02.034" displayName="腫瘤診斷代碼" objectID="tx_TumorDiagnosisCode" dataType="TEXT" format="ICD-10">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR55.02.037" displayName="腫瘤臨床分期代碼" objectID="dl_ClinicalStageCode" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR55.02.037" code="HR55.02.037.1" displayName="0-Ⅰ期" objectID="dl_ClinicalStageCode_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR55.02.037" code="HR55.02.037.2" displayName="Ⅱ期" objectID="dl_ClinicalStageCode_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR55.02.037" code="HR55.02.037.3" displayName="Ⅲ期" objectID="dl_ClinicalStageCode_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR55.02.037" code="HR55.02.037.4" displayName="Ⅳ期" objectID="dl_ClinicalStageCode_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR55.02.037" code="HR55.02.037.5" displayName="無法判定" objectID="dl_ClinicalStageCode_5" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="2" codeSystemName="IHE QRPH-ca" code="IHE-940" displayName="TNM分期-T" objectID="dl_TNMClinicalT" dataType="select" format="">
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-940" code="IHE-940.1" displayName="Tx" objectID="dl_TNMClinicalT_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-940" code="IHE-940.2" displayName="T0" objectID="dl_TNMClinicalT_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-940" code="IHE-940.3" displayName="Tis" objectID="dl_TNMClinicalT_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-940" code="IHE-940.4" displayName="T1" objectID="dl_TNMClinicalT_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-940" code="IHE-940.5" displayName="T2" objectID="dl_TNMClinicalT_5" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-940" code="IHE-940.6" displayName="T3" objectID="dl_TNMClinicalT_6" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-940" code="IHE-940.7" displayName="T4" objectID="dl_TNMClinicalT_7" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="2" codeSystemName="IHE QRPH-ca" code="IHE-950" displayName="TNM分期-N" objectID="dl_TNMClinicalN" dataType="select" format="">
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-950" code="IHE-950.1" displayName="Nx" objectID="dl_TNMClinicalN_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-950" code="IHE-950.2" displayName="N0" objectID="dl_TNMClinicalN_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-950" code="IHE-950.3" displayName="N1" objectID="dl_TNMClinicalN_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-950" code="IHE-950.4" displayName="N2" objectID="dl_TNMClinicalN_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-950" code="IHE-950.5" displayName="N3" objectID="dl_TNMClinicalN_5" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="2" codeSystemName="IHE QRPH-ca" code="IHE-960" displayName="TNM分期-M" objectID="dl_TNMClinicalM" dataType="select" format="">
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-960" code="IHE-960.1" displayName="Mx" objectID="dl_TNMClinicalM_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-960" code="IHE-960.2" displayName="M0" objectID="dl_TNMClinicalM_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-960" code="IHE-960.3" displayName="M1" objectID="dl_TNMClinicalM_3" dataType="option" format=""></subcode>
+  </code>
+</codes>

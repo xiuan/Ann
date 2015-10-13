@@ -1,0 +1,436 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>乳癌治療計畫書</title>
+    
+    <script language="JavaScript" type="text/javascript" src="CallBack.js"></script>
+    <script language="JavaScript" type="text/javascript" src="SaveData.js"></script>
+    <script language="JavaScript" type="text/javascript" src="ReadXML.js"></script>
+    
+    <style type="text/css">
+        .style1
+        {
+            width: 932px;
+            margin-right: 117px;
+        }
+        .style3
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+                font-weight: bold;
+        }
+        .style22
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+                font-weight: 700;
+        }
+        .style23
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+        }
+        #TextArea1
+        {
+            width: 906px;
+            height: 102px;
+        }
+        .style25
+        {
+            font-weight: bold;
+        }
+        .style26
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+                width: 258px;
+        }
+        .style28
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 256px;
+        }
+        .style29
+        {
+            font-weight: normal;
+        }
+        .style30
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+                font-weight: 700;
+                height: 25px;
+        }
+        #Text33
+        {
+            width: 100px;
+        }
+        #Text34
+        {
+            width: 100px;
+        }
+        #Text35
+        {
+            width: 100px;
+        }
+        #Text36
+        {
+            width: 100px;
+        }
+        #Text37
+        {
+            width: 100px;
+        }
+        #Text38
+        {
+            width: 100px;
+        }
+        #Text39
+        {
+            width: 100px;
+        }
+        #Text40
+        {
+            width: 100px;
+        }
+        #Text41
+        {
+            width: 99px;
+        }
+        #Text42
+        {
+            width: 100px;
+        }
+        #Text43
+        {
+            width: 100px;
+        }
+        #Text44
+        {
+            width: 100px;
+        }
+        .style31
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            font-weight: bold;
+            height: 22px;
+        }
+        .style32
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 167px;
+        }
+        #Text4
+        {
+            width: 100px;
+        }
+        .style33
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 266px;
+        }
+        #Checkbox24
+        {
+            width: 20px;
+        }
+    </style>
+
+</head>
+<body>
+<p align="middle">
+        <input id="file" type="file" align="middle" />
+        <input id="Button2" type="button" value="Load" onclick="ReadXML()" align="middle" />
+        
+        <div align="middle">
+        <span id="fileName" style="visibility: hidden">檔案名稱</span>
+        <span id="fileSize" style="visibility: hidden">(檔案大小)</span>     
+        </div> 
+</p>      
+<form style="text-align: center">
+
+<b>乳癌治療計畫書<br />
+<br />
+</b>
+<table align="center" class="style1">
+    <tr>
+        <td class="style31" colspan="4">
+            一、基本資料</td>
+    </tr>
+    <tr>
+        <td class="style26">
+            姓名：<input id="PID-5" type="text" /></td>
+        <td class="style28">
+            出生日期：<input id="PID-7" type="text" /></td>
+        <td class="style33">
+            本院診斷日：<input id="HR42.02.012" type="text" /></td>
+        <td class="style32">
+            年齡：<input id="tx_age" type="text" style="width: 100px" /></td>
+    </tr>
+    <tr>
+        <td class="style26">
+            病歷號碼：<input id="PID-3" type="text" /></td>
+        <td class="style28">
+            性別：<input id="PID-8.1" name="Sex" type="radio" />男　<input id="PID-8.2" name="Sex" type="radio" />女</td>
+        <td class="style22" colspan="2">
+            <span class="style29">主治醫師：</span><input id="HR22.01.023" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style3" colspan="4">
+            二、診斷</td>
+    </tr>
+    <tr>
+        <td class="style23" colspan="4">
+            <textarea id="OBR-32" name="S1" style="width: 901px; height: 61px"></textarea></td>
+    </tr>
+    <tr>
+        <td class="style3" colspan="4">
+            三、癌症既往史</td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">癌症家族史：</span><input id="HR51.01.195_no" type="radio" /><span 
+                class="style29">否　</span><input id="HR51.01.195_yes" type="radio" /><span 
+                class="style29">是　（</span><input id="HR55.02.038" type="text" /><span 
+                class="style29">）：與病人關係：</span><input id="HR02.18.002" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">賀爾蒙使用：</span><input id="rd_Hormone_no" type="radio" /><span 
+                class="style29">無　</span><input id="rd_Hormone_yes" type="radio" /><span 
+                class="style29">有　時間：</span><input id="tx_Hormone_time" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">停經史：</span><input id="HR51.01.216_no" type="radio" /><span 
+                class="style29">否　</span><input id="HR51.01.216_yes" type="radio" /><span 
+                class="style29">是　原因：</span><input id="cb_NaturalMenopause" 
+                type="checkbox" /><span 
+                class="style29">自然停經　</span><input id="cb_Hysterectomy" type="checkbox" 
+                style="width: 20px" /><span 
+                class="style29">子宮切除　</span><input id="cb_oophorectomy" type="checkbox" /><span 
+                class="style29">卵巢切除　</span><input id="cb_HR51.01.216_other" 
+                type="checkbox" /><span 
+                class="style29">其他</span></td>
+    </tr>
+    <tr>
+        <td class="style3" colspan="4">
+            四、治療前檢查</td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_CXR" type="checkbox" /><span class="style29">CXR　</span><input 
+                id="HR51.05.003" type="checkbox" /><span class="style29">乳房超音波　</span><input 
+                id="cb_乳房攝影" type="checkbox" /><span class="style29">乳房攝影　</span><input 
+                id="cb_CA-153" type="checkbox" /><span class="style29">CA-153</span><input 
+                id="tx_CA-153" type="text" /><span class="style29">(U/ml)　</span><input 
+                id="cb_CEA" type="checkbox" /><span class="style29">CEA：</span><input 
+                id="tx_CEA" type="text" /><span class="style29">(ng/ml)　</span><input 
+                id="cb_MRI" type="checkbox" /><span class="style29">MRI</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_ABDSono" type="checkbox" /><span class="style29">ABD Sono　</span><input 
+                id="cb_BoneScan" type="checkbox" /><span class="style29">Bone Scan　</span><input 
+                id="cb_FNAC" type="checkbox" /><span class="style29">　FNAC　</span><input 
+                id="cb_CoreBiopsy" type="checkbox" /><span class="style29">Core Biopsy　</span><input 
+                id="cb_ExcisionalBiopsy" type="checkbox" /><span class="style29">Excisional Biopsy</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_IncisionalBiopsy" type="checkbox" /><span class="style29">Incisional 
+            Biopsy　</span><input id="cb_Pre-treatmentCheck_other" type="checkbox" /><span class="style29">其他：</span><input 
+                id="tx_Pre-treatmentCheck_other" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <b>五、病理報告、癌症分期及重要影響預後因子　（依據　</b><input id="cb_AJCC" class="style25" 
+                type="checkbox" /><b>AJCC(</b><input id="tx_AJCC" class="style25" 
+                type="text" /><b>)　</b><input id="cb_Pathology_other" class="style25" 
+                type="checkbox" /><b>其他</b><input id="tx_Pathology_other" class="style25" 
+                type="text" />）</td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_clinical_r" type="checkbox" /><span class="style29">r　</span><input 
+                id="cb_clinical_y" type="checkbox" /><span class="style29">y　cT：</span><input 
+                id="IHE-940" type="text" /><span class="style29">　N：</span><input 
+                id="IHE-950" type="text" /><span class="style29">　M：</span><input 
+                id="IHE-960" type="text" />　<span class="style29"><br />
+            Stage：</span><input id="IHE-970" type="text" /><span class="style29">　臨床分期日期：</span><input 
+                id="tx_IHE-970_Date" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_pathology_r" type="checkbox" /><span class="style29">r　</span><input 
+                id="cb_pathology_y" type="checkbox" /><span class="style29">y　pT：</span><input 
+                id="tx_pT" type="text" /><span class="style29">　N：</span><input 
+                id="tx_pT_N" type="text" /><span class="style29">　M：</span><input 
+                id="tx_pT_M" type="text" />　<span class="style29"><br />
+            Stage：</span><input id="tx_Pathology_Stage" type="text" /><span class="style29">　病理分期日期：</span><input 
+                id="tx_PathologyDate" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_Metastasis" type="checkbox" /><span class="style29">Metastasis：</span><input 
+                id="tx_Metastasis" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">腫瘤大小：</span><input id="RID5772" type="text" /><span 
+                class="style29">(公分)　Lymph Node：</span><input id="tx_LymphNode_1" 
+                type="text" /><span class="style29">／</span><input 
+                id="tx_LymphNode_2" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">Vasular：</span><input id="cb_Vasular_+" type="checkbox" /><span 
+                class="style29">＋　</span><input id="cb_Vasular_-" type="checkbox" /><span 
+                class="style29">－　Nerve：</span><input id="cb_Vasular_+" type="checkbox" /><span 
+                class="style29">＋　</span><input id="cb_Vasular_-" type="checkbox" /><span 
+                class="style29">－　Lymphartics：</span><input id="cb_Lymphartics_+" 
+                type="checkbox" /><span class="style29">＋　</span><input id="cb_Lymphartics_-" 
+                type="checkbox" /><span class="style29">－</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">Margin status：</span><input id="RID5972_free" 
+                type="checkbox" /><span class="style29">free　</span><input id="RID5972_notfree" 
+                type="checkbox" /><span class="style29">not free</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">Grade：</span><input id="cb_Gx" type="checkbox" /><span 
+                class="style29"> Gx　</span><input id="cb_GI" type="checkbox" /><span 
+                class="style29">GI　</span><input id="cb_GII" type="checkbox" /><span 
+                class="style29">GII　</span><input id="cb_GIII" type="checkbox" /><span 
+                class="style29">GIII/Score</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_ER_+" type="checkbox" /><span class="style29">ER(+) </span>
+            <input id="tx_ER" type="text" /><span class="style29">%　</span><input 
+                id="cb_ER_-" type="checkbox" /><span class="style29">(－)　</span><input 
+                id="cb_PR_+" type="checkbox" /><span class="style29">PR(＋)　</span><input 
+                id="tx_PR" type="text" /><span class="style29">%　</span><input 
+                id="cb_PR_-" type="checkbox" /><span class="style29">(－)</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">Her-2/Neu：</span><input id="cb_Her-2/Neu_-" 
+                type="checkbox" /><span 
+                class="style29">－　</span><input id="cb_Her-2/Neu_+" type="checkbox" /><span 
+                class="style29">＋　</span><input id="cb_Her-2/Neu_++" type="checkbox" /><span 
+                class="style29">＋＋　</span><input id="cb_Her-2/Neu_+++" type="checkbox" /><span 
+                class="style29">＋＋＋（開刀日期：</span><input id="tx_OperateDate" type="text" /><span 
+                class="style29">）　FISH：</span><input id="cb_FISH_+" type="checkbox" /><span 
+                class="style29">＋　</span><input id="cb_FISH_-" type="checkbox" /><span 
+                class="style29">－</span></td>
+    </tr>
+    <tr>
+        <td class="style30" colspan="4">
+            六、共病（co-morbidity）</td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_pathology_no" type="checkbox" /><span class="style29">無　</span><input 
+                id="cb_Heart" type="checkbox" /><span class="style29">Heart　</span><input 
+                id="cb_Lung" type="checkbox" /><span class="style29">Lung　</span><input 
+                id="cb_Liver" type="checkbox" /><span class="style29">Liver　</span><input 
+                id="cb_Kidney" type="checkbox" /><span class="style29">Kidney　</span><input 
+                id="cb_pathology_other" type="checkbox" /><span class="style29">其他：</span><input 
+                id="tx_pathology_other" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            七、治療計畫</td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">計畫名稱：</span><input id="tx_PlanName_1" type="text" 
+                style="width: 100px" /><span 
+                class="style29"> -&gt; </span>
+            <input id="tx_PlanName_2" type="text" style="width: 100px" /><span class="style29"> -&gt; </span>
+            <input id="tx_PlanName_3" type="text" style="width: 100px" /><span class="style29"> -&gt; </span>
+            <input id="tx_PlanName_4" type="text" style="width: 100px" /><span 
+                class="style29" dir="rtl"> -&gt; </span>
+            <input id="tx_PlanName_5" type="text" style="width: 100px" /><span class="style29"> -&gt; </span>
+            <input id="tx_PlanName_6" type="text" style="width: 99px" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <span class="style29">計畫日期：</span><input id="tx_PlanDate_1" type="text" 
+                style="width: 100px" /><span 
+                class="style29">&nbsp;&nbsp;&nbsp;&nbsp; </span>
+            <input id="tx_PlanDate_2" type="text" style="width: 100px" /><span class="style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <input id="tx_PlanDate_3" type="text" style="width: 100px" /><span class="style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <input id="tx_PlanDate_4" type="text" style="width: 100px" /><span class="style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <input id="tx_PlanDate_5" type="text" style="width: 100px" /><span class="style29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <input id="tx_PlanDate_6" type="text" style="width: 100px" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_Operation" type="checkbox" /><span class="style29">手術：partial 
+            mastectomy</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_ChemoTherapy" type="checkbox" /><span class="style29">化學治療（regimen &amp; 
+            cycle）: CEF or CMF X6 cycle</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_RadioTherapy" type="checkbox" /><span class="style29">放射治療（dose）：</span><input 
+                id="tx_radiotherapy" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_HormoneTherapy" type="checkbox" /><span class="style29">賀爾蒙治療：</span><input 
+                id="tx_HormoneTherapy" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_TargetedTherapy" type="checkbox" /><span class="style29">標靶治療：</span><input 
+                id="tx_TargetedTherapy" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_OtherTherapy" type="checkbox" /><span class="style29">其他治療（請註明）：</span><input 
+                id="tx_OtherTherapy" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_ConfirmTreatmentPlan" type="checkbox" /><span class="style29">多專科團隊已確認癌症分級及此治療計畫（多科主治醫師及個管師簽名）：</span></td>
+    </tr>
+    <tr>
+        <td class="style22" colspan="4">
+            <input id="cb_Meeting" type="checkbox" /><span class="style29">多專科團隊會議（日期）：</span><input 
+                id="tx_MeetingDate" type="text" /></td>
+    </tr>
+</table>
+
+</form>
+
+<p align="middle">
+        <input id="SaveButton" type="button" value="XML" 
+            onclick="return Save(0)" align="middle" /></p>
+
+</body>
+</html>

@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>PatientData</title>
+    <script language="JavaScript" type="text/javascript" src="CallBack.js"></script>
+    <script language="JavaScript" type="text/javascript" src="SaveData.js"></script>
+    
+    <style type="text/css">
+        .style1
+        {
+            border-style: solid;
+width: 1094px;
+                margin-right: 117px;
+            height: 703px;
+        }
+        .style34
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: justify;
+            width: 292px;
+            height: 31px;
+        }
+        .style35
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: justify;
+            width: 440px;
+            height: 31px;
+        }
+        .style38
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 292px;
+            height: 31px;
+        }
+        .style40
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 440px;
+            height: 47px;
+        }
+        .style41
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 243px;
+            height: 47px;
+        }
+        .style42
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 243px;
+            height: 68px;
+        }
+        .style43
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 122px;
+            height: 68px;
+        }
+        .style45
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 255px;
+            height: 47px;
+        }
+        .style46
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 440px;
+            height: 31px;
+        }
+        .style47
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            height: 37px;
+        }
+        .style48
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            height: 34px;
+        }
+        .style49
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            height: 107px;
+        }
+        .style50
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            height: 38px;
+        }
+        .style51
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            height: 32px;
+        }
+        .style52
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            height: 68px;
+        }
+        .style53
+        {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            height: 49px;
+        }
+        #Button1
+        {
+            height: 26px;
+            width: 53px;
+        }
+        #SaveButton
+        {}
+    </style>
+
+    <script language="javascript" type="text/javascript">
+// <!CDATA[
+
+
+// ]]>
+    </script>
+</head>
+<body>
+
+<form style="text-align: center">
+
+<b>病患資料調查表<br />
+<br />
+</b>
+<table align="center" class="style1">
+    <tr>
+        <td class="style40">
+            姓名：<input id="PID-5" type="text" /></td>
+        <td class="style45">
+            性別：<input id="PID-8" type="text" /></td>
+        <td class="style41">
+            血型：<input id="HR51.03.003" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style35">
+            出生日期：<input id="PID-7" type="text" style="width: 100px" /></td>
+        <td class="style34" colspan="2">
+            宗教信仰：<input id="PID-17" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style46">
+            籍貫：<input id="PID-26_province" type="text" style="width: 60px" />省<input id="PID-26_county" 
+                type="text" style="width: 60px" />縣(市)</td>
+        <td class="style38" colspan="2">
+            職業：<input id="IHE-270" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style46">
+            病歷號碼：<input id="PID-3" type="text" /></td>
+        <td class="style38" colspan="2">
+            婚姻：<input id="PID-16-1" type="radio" />已婚　<input id="PID-16-2" type="radio" />未婚</td>
+    </tr>
+    <tr>
+        <td class="style46">
+            教育程度：<input id="HR02.08.001" type="text" /></td>
+        <td class="style38" colspan="2">
+            方言：<input id="cb_Chinese" type="checkbox" />國語<input id="cb_Taiwanese" 
+                type="checkbox" />台語<input id="cb_Hakka" type="checkbox" />客語<input 
+                id="cb_ForeignLanguage" type="checkbox" />外譯</td>
+    </tr>
+    <tr>
+        <td class="style47" colspan="4">
+            種族：<input id="PID-22" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style48" colspan="4">
+            您的就醫身份：<input id="cb_labor" type="checkbox" />勞保<input id="cb_official" 
+                type="checkbox" />公保<input id="cb_People" type="checkbox" />民眾<input 
+                id="cb_farmer" type="checkbox" />農保<input id="cb_other" type="checkbox" 
+                style="width: 20px" />其他</td>
+    </tr>
+    <tr>
+        <td class="style49" colspan="4">
+            現在或以前有否下列嗜好：1‧抽菸　：<input id="HR51.01.109" type="text" style="width: 60px" />年，每天<input 
+                id="HR51.01.108" type="text" style="width: 60px" />包<br />
+            　　　　　　　　　　　　2‧喝酒　：<input id="HR51.01.112" type="text" style="width: 60px" />年，每天<input 
+                id="HR51.01.111" type="text" style="width: 60px" />瓶<br />
+            　　　　　　　　　　　　3‧嚼檳榔：<input id="tx_Areca_year" type="text" style="width: 60px" />年，每天<input 
+                id="tx_Areca_amount" type="text" style="width: 60px" />粒</td>
+    </tr>
+    <tr>
+        <td class="style47" colspan="2">
+            您來本科之前，曾在何院檢查（或治療）過？<input id="tx_PreviousHospital" type="text" />　</td>
+        <td class="style47" colspan="2">
+            醫師姓名：<input id="tx_PreviouDoctorName" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style50" colspan="4">
+            您來本科是否有攜帶他院的病情資料來？<input id="cb_EMR" type="checkbox" />病歷資料<input id="cb_X-rays" 
+                type="checkbox" />X-光片</td>
+    </tr>
+    <tr>
+        <td class="style51" colspan="2">
+            病患戶籍地址：<input id="IHE-250" type="text" style="height: 26px; width: 400px" /></td>
+        <td class="style51" colspan="2">
+            電話：<input id="tx_HouseholdRegisterPhone" type="text" style="height: 26px; width: 148px" /></td>
+    </tr>
+    <tr>
+        <td class="style51" colspan="2">
+            目前住址　　：<input id="PID-11" type="text" style="height: 26px; width: 400px" /></td>
+        <td class="style51" colspan="2">
+            電話：<input id="PID-13" type="text" style="height: 26px; width: 148px" /></td>
+    </tr>
+    <tr>
+        <td class="style52" colspan="2">
+            接受治療期間住址：<input id="tx_NowAddress" type="text" style="height: 26px; width: 400px" /></td>
+        <td class="style42">
+            電話：<input id="tx_NowPhone1" type="text" style="height: 26px; width: 148px" /></td>
+        <td class="style43">
+            電話：<input id="tx_Nowhone2" type="text" style="height: 26px; width: 121px" /></td>
+    </tr>
+    <tr>
+        <td class="style50" colspan="2">
+            常連絡親友：姓名：<input id="tx_RelativeName" type="text" /></td>
+        <td class="style50" colspan="2">
+            系病患之：<input id="HR02.18.002" type="text" /></td>
+    </tr>
+    <tr>
+        <td class="style53" colspan="2">
+            　　　　　　其地址：<input id="tx_RelativeAddress" type="text" style="height: 26px; width: 370px" /></td>
+        <td class="style53" colspan="2">
+            電話：<input id="tx_RelativePhone" type="text" style="height: 26px; width: 148px" /></td>
+    </tr>
+    </table>
+
+
+</form>
+
+    <p align="middle" >
+        <input id="SaveButton" type="button" value="XML" 
+            onclick="return Save(0)" align="middle" /></p>
+
+</body>
+</html>

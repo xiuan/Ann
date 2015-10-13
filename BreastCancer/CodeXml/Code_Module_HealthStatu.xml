@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codes>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.03.003" displayName="血型" objectID="dl_Blood" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.03.003" code="HR51.03.003.1" displayName="O" objectID="dl_Blood_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.03.003" code="HR51.03.003.2" displayName="A" objectID="dl_Blood_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.03.003" code="HR51.03.003.3" displayName="B" objectID="dl_Blood_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.03.003" code="HR51.03.003.4" displayName="AB" objectID="dl_Blood_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.03.003" code="HR51.03.003.5" displayName="不詳" objectID="dl_Blood_5" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.02.001" displayName="身高(cm)" objectID="tx_Height" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.02.002" displayName="體重(kg)" objectID="tx_Weight" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.02.034" displayName="收縮壓(mmHg)" objectID="tx_SystolicBloodPressure" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.02.035" displayName="舒張壓(mmHg)" objectID="tx_DiastolicBloodPressure" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.02.062" displayName="體溫(℃)" objectID="tx_Temp" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.107" displayName="抽菸狀況" objectID="dl_Smoking" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.107" code="HR51.01.107.1" displayName="從不吸煙" objectID="dl_Smoking_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.107" code="HR51.01.107.2" displayName="過去吸，已戒煙" objectID="dl_Smoking_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.107" code="HR51.01.107.3" displayName="吸煙" objectID="dl_Smoking_3" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.109" displayName="吸菸時間" objectID="tx_SmokingTime" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.108" displayName="抽菸量(支/日)" objectID="tx_NumberOfSmoked" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.162" displayName="吸菸頻率" objectID="dl_SmokingFrequency" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.162" code="HR51.01.162.1" displayName="是的，每天吸" objectID="dl_SmokingFrequency_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.162" code="HR51.01.162.2" displayName="是的，但不是每天吸" objectID="dl_SmokingFrequency_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.162" code="HR51.01.162.3" displayName="過去吸，現在不吸" objectID="dl_SmokingFrequency_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.162" code="HR51.01.162.4" displayName="從不吸" objectID="dl_SmokingFrequency_4" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.111" displayName="喝酒量(瓶/日)" objectID="tx_DrinkingNumber" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.168" displayName="喝酒頻率" objectID="dl_DrinkingFrequency" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.168" code="HR51.01.168.1" displayName="每天" objectID="dl_DrinkingFrequency_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.168" code="HR51.01.168.2" displayName="5-6天/周" objectID="dl_DrinkingFrequency_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.168" code="HR51.01.168.3" displayName="3-4天/周" objectID="dl_DrinkingFrequency_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.168" code="HR51.01.168.4" displayName="1-2天/周" objectID="dl_DrinkingFrequency_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.168" code="HR51.01.168.5" displayName="1-3天/月" objectID="dl_DrinkingFrequency_5" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.168" code="HR51.01.168.9" displayName="少於1天/月" objectID="dl_DrinkingFrequency_9" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR42.02.024" displayName="經期時間(天)" objectID="tx_Menstruation" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.215" displayName="初經(年齡)" objectID="tx_Menarche" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.216" displayName="停經(年齡)" objectID="tx_Amenorrhea" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.010" displayName="月經週期(天)" objectID="tx_MenstrualCycle" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.009" displayName="月經情況" objectID="dl_MenstrualHistory" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.009" code="HR51.01.009.1" displayName="多" objectID="dl_MenstrualHistory_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.009" code="HR51.01.009.2" displayName="中" objectID="dl_MenstrualHistory_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.009" code="HR51.01.009.3" displayName="少" objectID="dl_MenstrualHistory_3" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.011" displayName="經痛程度" objectID="dl_MenstrualCramps" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.011" code="HR51.01.011.1" displayName="輕度" objectID="dl_MenstrualCramps_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.011" code="HR51.01.011.2" displayName="中度" objectID="dl_MenstrualCramps_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR51.01.011" code="HR51.01.011.3" displayName="重度" objectID="dl_MenstrualCramps_3" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.003" displayName="過敏史" objectID="tx_Allergy" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.006" displayName="病史" objectID="tx_MedicalHistory" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR51.01.002" displayName="遺傳疾病" objectID="tx_GeneticDiseases" dataType="TEXT" format="freeText">
+  </code>
+</codes>

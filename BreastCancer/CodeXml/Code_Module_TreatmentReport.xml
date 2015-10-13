@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codes>
+  <code codeSystem="2" codeSystemName="IHE QRPH-ca" code="IHE-1200" displayName="手術日期" objectID="tx_DateofSurgery" dataType="TEXT" format="yyyyMMdd">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR22.01.023" displayName="治療醫師姓名" objectID="tx_TreatingPhysicianName" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR52.01.040" displayName="治療方式" objectID="slc_Treatment" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR52.01.040" code="HR52.01.040.1" displayName="手術" objectID="opt_Treatment_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR52.01.040" code="HR52.01.040.2" displayName="化療" objectID="opt_Treatment_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR52.01.040" code="HR52.01.040.3" displayName="放療" objectID="opt_Treatment_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR52.01.040" code="HR52.01.040.4" displayName="中藥" objectID="opt_Treatment_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR52.01.040" code="HR52.01.040.5" displayName="免疫" objectID="opt_Treatment_5" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR52.01.040" code="HR52.01.040.6" displayName="介入" objectID="opt_Treatment_6" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR52.01.040" code="HR52.01.040.7" displayName="針對性治療" objectID="opt_Treatment_7" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR52.01.040" code="HR52.01.040.8" displayName="止痛治療" objectID="opt_Treatment_8" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="3" codeSystemName="RSNA" code="RID5863" displayName="腫瘤形狀" objectID="slc_Shape" dataType="select" format="">
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5863" code="RID5799" displayName="圓形" objectID="opt_Shape_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5863" code="RID5800" displayName="橢圓形" objectID="opt_Shape_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5863" code="RID5801" displayName="分葉狀" objectID="opt_Shape_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5863" code="RID5809" displayName="不規則的" objectID="opt_Shape_4" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="3" codeSystemName="RSNA" code="RID5972" displayName="腫瘤邊界" objectID="slc_Margins" dataType="select" format="">
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5972" code="RID34279" displayName="外切" objectID="opt_Margins_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5972" code="RID34280" displayName="葉狀" objectID="opt_Margins_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5972" code="RID34282" displayName="隱蔽" objectID="opt_Margins_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5972" code="RID34283" displayName="模糊" objectID="opt_Margins_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5972" code="RID34284" displayName="針狀的" objectID="opt_Margins_5" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="3" codeSystemName="RSNA" code="RID6041" displayName="腫瘤密度" objectID="slc_Density" dataType="select" format="">
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID6041" code="RID34240" displayName="高" objectID="opt_Density_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID6041" code="RID6043" displayName="一般" objectID="opt_Density_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID6041" code="RID34243" displayName="低" objectID="opt_Density_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID6041" code="RID5749" displayName="含脂肪" objectID="opt_Density_4" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="3" codeSystemName="RSNA" code="RID5958" displayName="腫瘤分佈" objectID="slc_Distribution" dataType="select" format="">
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5958" code="RID5700" displayName="分組和群集" objectID="opt_Distribution_1" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5958" code="RID5811" displayName="線性" objectID="opt_Distribution_2" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5958" code="RID5694" displayName="節段性" objectID="opt_Distribution_3" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5958" code="RID34260" displayName="區域" objectID="opt_Distribution_4" dataType="option" format=""></subcode>
+    <subcode codeSystem="3" codeSystemName="RSNA" codeSet="RID5958" code="RID5705" displayName="分散的" objectID="opt_Distribution_5" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="3" codeSystemName="RSNA" code="RID5772" displayName="腫瘤大小(mm)" objectID="tx_Size" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="3" codeSystemName="RSNA" code="RID13170" displayName="診斷建議" objectID="tx_Impression" dataType="TEXT" format="freeText">
+  </code>
+</codes>
+
+

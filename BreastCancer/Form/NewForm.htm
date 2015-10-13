@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>NewForm</title>
+    
+    <script language="JavaScript" type="text/javascript" src="../CallBack.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../CreatXml.js"></script>
+    
+    <style type="text/css">
+
+        .css_td
+        {
+            display: table-cell;
+        }
+        .css_tr
+        {
+            display: table-row;
+        }
+        </style>
+</head>
+<body>
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_PatientName">
+                    &nbsp; 姓名</label>
+                <input id="tx_PatientName" name="tx_PatientName" type="text" />
+            </div>
+               
+            <div class="css_td">
+                <label for="tx_DateofBirth">
+                    &nbsp; 出生日期</label>
+                <input id="tx_DateofBirth" name="tx_DateofBirth" type="text" />
+            </div>
+        
+            <div class="css_td">
+                <label for="rd_AdministrativeSex">
+                    &nbsp; 性別</label>
+                <label for="rd_AdministrativeSex">
+                    &nbsp; 男</label>
+                <input id="rd_AdministrativeSex_M" name="rd_AdministrativeSex" type="radio"  />
+                <label for="rd_AdministrativeSex">
+                    &nbsp; 女</label>
+                <input id="rd_AdministrativeSex_F" name="rd_AdministrativeSex" type="radio" />
+            </div>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_PatientAddress">
+                    &nbsp; 地址</label>
+                <input id="tx_PatientAddress" name="tx_PatientAddress" type="text" />
+            </div>
+        
+            <div class="css_td">
+                <label for="tx_PhoneNumber">
+                    &nbsp; 電話</label>
+                <input id="tx_PhoneNumber" name="tx_PhoneNumber" type="text" />
+            </div>
+        </div>
+            
+        <div class="css_tr">
+                <label for="dl_Blood">
+                    &nbsp; 血型</label>
+                    <select id="dl_Blood" name="D1">
+                        <option id="dl_Blood_1">O</option>
+                        <option id="dl_Blood_2">A</option>
+                        <option id="dl_Blood_3">B</option>
+                        <option id="dl_Blood_4">AB</option>
+                        <option id="dl_Blood_5">不詳</option>                      
+                    </select>
+
+            <div class="css_td">
+                <label for="tx_Height">
+                    &nbsp; 身高(cm)</label>
+                <input id="tx_Height" name="tx_Height" type="text" />
+            </div>
+               
+            <div class="css_td">
+                <label for="tx_Weight">
+                    &nbsp; 體重(kg)</label>
+                <input id="tx_Weight" name="tx_Weight" type="text" />
+            </div>
+        </div>
+        
+        <div class="css_tr">
+             <label for="dl_Smoking">
+                    &nbsp; 抽菸狀況</label>
+                    <select id="dl_Smoking" name="D2">
+                        <option id="dl_Smoking_1">從不吸煙</option>
+                        <option id="dl_Smoking_2">過去吸，已戒煙</option>
+                        <option id="dl_Smoking_3">吸煙</option>                     
+                    </select>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_DrinkingNumber">
+                    &nbsp; 喝酒量(瓶/日)</label>
+                <input id="tx_DrinkingNumber" name="tx_DrinkingNumber" type="text" />
+            </div>
+               
+            <label for="dl_DrinkingFrequency">
+                    &nbsp; 喝酒頻率</label>
+                    <select id="dl_DrinkingFrequency" name="D3">
+                        <option id="dl_DrinkingFrequency_1">每天</option>
+                        <option id="dl_DrinkingFrequency_2">5-6天/周</option>
+                        <option id="dl_DrinkingFrequency_3">3-4天/周</option>
+                        <option id="dl_DrinkingFrequency_4">1-2天/周</option>   
+                        <option id="dl_DrinkingFrequency_5">1-3天/月</option> 
+                        <option id="dl_DrinkingFrequency_9">少於1天/月</option>                
+                    </select>          
+        </div>
+        
+            <div class="css_td">
+                <label for="tx_PrincipalResultInterpreter">
+                    &nbsp; 主訴</label>
+                <textarea id="tx_PrincipalResultInterpreter" name="tx_PrincipalResultInterpreter" cols="35" rows="4"></textarea>
+            </div>
+        
+        <div class="css_tr">
+                <label for="dl_Treatment">
+                    &nbsp; 治療方式</label>
+                    <select id="dl_Treatment" name="D4">
+                        <option id="dl_Treatment_1">手術</option>
+                        <option id="dl_Treatment_2">化療</option>
+                        <option id="dl_Treatment_3">放療</option>
+                        <option id="dl_Treatment_4">中藥</option>
+                        <option id="dl_Treatment_5">免疫</option>
+                        <option id="dl_Treatment_6">介入</option>
+                        <option id="dl_Treatment_7">針對性治療</option>
+                        <option id="dl_Treatment_8">止痛治療</option>
+                    </select>
+        </div>
+        
+            <div class="css_td">
+                <label for="tx_DiagnosisDate">
+                    &nbsp; 診斷日期</label>
+                <input id="tx_DiagnosisDate" name="tx_DiagnosisDate" type="text" />
+            </div>
+            
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="bt_CreatXML">
+                    &nbsp; </label>
+                <input id="bt_CreatXML" name="bt_CreatXML" value="CreatXML" type="button" onclick="return Creatxml()" />
+           </div>
+        </div>
+
+</body>
+</html>

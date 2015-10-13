@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Module_HealthStatu</title>
+</head>
+
+<style type="text/css">
+        #css_table
+        {
+            display: table;
+        }
+        .css_tr
+        {
+            display: table-row;
+        }
+        .css_td
+        {
+            display: table-cell;
+        }
+ </style>
+ 
+<body>
+    <div id="div_Module_HealthStatu">
+        <div class="css_tr">
+                <label for="dl_Blood">
+                    &nbsp; 血型</label>
+                    <select id="dl_Blood">
+                        <option id="dl_Blood_1">O</option>
+                        <option id="dl_Blood_2">A</option>
+                        <option id="dl_Blood_3">B</option>
+                        <option id="dl_Blood_4">AB</option>
+                        <option id="dl_Blood_5">不詳</option>                      
+                    </select>
+        </div>  
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_Height">
+                    &nbsp; 身高(cm)</label>
+                <input id="tx_Height" name="tx_Height" type="text" />
+            </div>
+               
+            <div class="css_td">
+                <label for="tx_Weight">
+                    &nbsp; 體重(kg)</label>
+                <input id="tx_Weight" name="tx_Weight" type="text" />
+            </div>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_SystolicBloodPressure">
+                    &nbsp; 收縮壓(mmHg)</label>
+                <input id="tx_SystolicBloodPressure" name="tx_SystolicBloodPressure" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_DiastolicBloodPressure">
+                    &nbsp; 舒張壓(mmHg)</label>
+                <input id="tx_DiastolicBloodPressure" name="tx_DiastolicBloodPressure" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_Temp">
+                    &nbsp; 體溫(℃)</label>
+                <input id="tx_Temp" name="tx_Temp" type="text" />
+            </div>
+        </div>
+        
+        <div class="css_tr">
+             <label for="dl_Smoking">
+                    &nbsp; 抽菸狀況</label>
+                    <select id="dl_Smoking">
+                        <option id="dl_Smoking_1">從不吸煙</option>
+                        <option id="dl_Smoking_2">過去吸，已戒煙</option>
+                        <option id="dl_Smoking_3">吸煙</option>                     
+                    </select>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_SmokingTime">
+                    &nbsp; 吸菸時間</label>
+                <input id="tx_SmokingTime" name="tx_SmokingTime" type="text" />
+            </div>
+               
+            <div class="css_td">
+                <label for="tx_NumberOfSmoked">
+                    &nbsp; 抽菸量(支/日)</label>
+                <input id="tx_NumberOfSmoked" name="tx_NumberOfSmoked" type="text" />
+            </div>            
+        </div>
+        
+        <div class="css_tr">
+             <label for="dl_SmokingFrequency">
+                    &nbsp; 吸菸頻率</label>
+                    <select id="dl_SmokingFrequency">
+                        <option id="dl_SmokingFrequency_1">是的，每天吸</option>
+                        <option id="dl_SmokingFrequency_2">是的，但不是每天吸</option>
+                        <option id="dl_SmokingFrequency_3">過去吸，現在不吸</option>
+                        <option id="dl_SmokingFrequency_4">從不吸</option>                  
+                    </select>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_DrinkingNumber">
+                    &nbsp; 喝酒量(瓶/日)</label>
+                <input id="tx_DrinkingNumber" name="tx_DrinkingNumber" type="text" />
+            </div>
+               
+            <label for="dl_DrinkingFrequency">
+                    &nbsp; 喝酒頻率</label>
+                    <select id="dl_DrinkingFrequency">
+                        <option id="dl_DrinkingFrequency_1">每天</option>
+                        <option id="dl_DrinkingFrequency_2">5-6天/周</option>
+                        <option id="dl_DrinkingFrequency_3">3-4天/周</option>
+                        <option id="dl_DrinkingFrequency_4">1-2天/周</option>   
+                        <option id="dl_DrinkingFrequency_5">1-3天/月</option> 
+                        <option id="dl_DrinkingFrequency_9">少於1天/月</option>                
+                    </select>          
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_Menstruation">
+                    &nbsp; 經期時間(天)</label>
+                <input id="tx_Menstruation" name="tx_Menstruation" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_Menarche">
+                    &nbsp; 初經(年齡)</label>
+                <input id="tx_Menarche" name="tx_Menarche" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_Amenorrhea">
+                    &nbsp; 停經(年齡)</label>
+                <input id="tx_Amenorrhea" name="tx_Amenorrhea" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_MenstrualCycle">
+                    &nbsp; 月經週期(天)</label>
+                <input id="tx_MenstrualCycle" name="tx_MenstrualCycle" type="text" />
+            </div>                  
+        </div>
+        
+        <div class="css_tr">
+             <label for="dl_MenstrualHistory">
+                    &nbsp; 月經情況</label>
+                    <select id="dl_MenstrualHistory">
+                        <option id="dl_MenstrualHistory_1">多 </option>
+                        <option id="dl_MenstrualHistory_2">中 </option>
+                        <option id="dl_MenstrualHistory_3">少</option>
+                    </select>
+        </div>
+        
+         <div class="css_tr">
+             <label for="dl_MenstrualCramps">
+                    &nbsp; 經痛程度</label>
+                    <select id="dl_MenstrualCramps">
+                        <option id="dl_MenstrualCramps_1">輕度</option>
+                        <option id="dl_MenstrualCramps_2">中度</option>
+                        <option id="dl_MenstrualCramps_3">重度</option>
+                    </select>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_Allergy">
+                    &nbsp; 過敏史</label>
+                <input id="tx_Allergy" name="tx_Allergy" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_MedicalHistory">
+                    &nbsp; 病史</label>
+                <input id="tx_MedicalHistory" name="tx_MedicalHistory" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_GeneticDiseases">
+                    &nbsp; 遺傳疾病</label>
+                <input id="tx_GeneticDiseases" name="tx_GeneticDiseases" type="text" />
+            </div>           
+        </div>
+        
+    </div>
+
+</body>
+</html>

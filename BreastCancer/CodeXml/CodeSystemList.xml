@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystemList>
+<CodeSystem displayName="HL7 v2" OID="2.16.840.1.113883" ID="0"></CodeSystem>
+<CodeSystem displayName="大陸健康文件檔" OID="" ID="1"></CodeSystem>
+<CodeSystem displayName="IHE QRPH-ca" OID="1.3.6.1.4.1.19376.1.7.3.1.1.14" ID="2"></CodeSystem>
+<CodeSystem displayName="RSNA" OID="" ID="3"></CodeSystem>
+</CodeSystemList>
+
+

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<codes>
+  <code codeSystem="0" codeSystemName="HL7 v2"  code="PID-5" displayName="姓名" objectID="tx_PatientName" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="PID-7" displayName="出生日期" objectID="tx_DateofBirth" dataType="TEXT" format="yyyyMMdd">
+  </code>
+  <code  codeSystem="0" codeSystemName="HL7 v2" code="PID-8" displayName="性別" objectID="rd_AdministrativeSex" dataType="radio" format="">
+    <subcode codeSystem="0" codeSystemName="HL7 v2" codeSet="PID-8" code="PID-8.1" displayName="男" objectID="rd_AdministrativeSex_M" dataType="radio" format=""></subcode>
+    <subcode codeSystem="0" codeSystemName="HL7 v2" codeSet="PID-8" code="PID-8.2" displayName="女" objectID="rd_AdministrativeSex_F" dataType="radio" format=""></subcode>
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="PID-11" displayName="地址" objectID="tx_PatientAddress" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="0" codeSystemName="HL7 v2" code="PID-13" displayName="電話" objectID="tx_PhoneNumber" dataType="TEXT" format="freeText">
+  </code>
+  <code  codeSystem="0" codeSystemName="HL7 v2" code="PID-16" displayName="婚姻狀況" objectID="rd_MaritalStatus" dataType="radio" format="">
+    <subcode codeSystem="0" codeSystemName="HL7 v2" codeSet="PID-16" code="PID-16.1" displayName="已婚" objectID="rd_MaritalStatus_1" dataType="radio" format=""></subcode>
+    <subcode codeSystem="0" codeSystemName="HL7 v2" codeSet="PID-16" code="PID-16.2" displayName="未婚" objectID="rd_MaritalStatus_2" dataType="radio" format=""></subcode>
+  </code>
+  <code codeSystem="0" code="PID-26 " displayName="國籍" objectID="tx_Citizenship" dataType="TEXT" format="freeText">
+  </code>
+  <code codeSystem="2" codeSystemName="IHE QRPH-ca" code="IHE-270" displayName="職業" objectID="dl_Occupation" dataType="select" format="">
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.01" displayName="幼托兒童" objectID="dl_Occupation_01" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.02" displayName="一般兒童" objectID="dl_Occupation_02" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.03" displayName="學生" objectID="dl_Occupation_03" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.04" displayName="教師" objectID="dl_Occupation_04" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.05" displayName="保育員及保姆" objectID="dl_Occupation_05" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.06" displayName="餐飲食品業" objectID="dl_Occupation_06" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.07" displayName="商業服務" objectID="dl_Occupation_07" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.08" displayName="醫務人員" objectID="dl_Occupation_08" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.09" displayName="工人" objectID="dl_Occupation_09" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.10" displayName="民眾" objectID="dl_Occupation_10" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.11" displayName="農民" objectID="dl_Occupation_11" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.12" displayName="牧民" objectID="dl_Occupation_12" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.13" displayName="漁（船）民" objectID="dl_Occupation_13" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.14" displayName="幹部職員" objectID="dl_Occupation_14" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.15" displayName="離退人員" objectID="dl_Occupation_15" dataType="option" format=""></subcode>
+    <subcode codeSystem="2" codeSystemName="IHE QRPH-ca" codeSet="IHE-270" code="IHE-270.16" displayName="家務及待業" objectID="dl_Occupation_16" dataType="option" format=""></subcode>
+  </code>
+  <code codeSystem="1" codeSystemName="大陸健康文件檔" code="HR02.08.001" displayName="教育程度" objectID="dl_Education" dataType="select" format="">
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR02.08.001" code="HR02.08.001.13" displayName="博士" objectID="dl_Education_13" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR02.08.001" code="HR02.08.001.11" displayName="碩士" objectID="dl_Education_11" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR02.08.001" code="HR02.08.001.21" displayName="大學" objectID="dl_Education_21" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR02.08.001" code="HR02.08.001.31" displayName="專科" objectID="dl_Education_31" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR02.08.001" code="HR02.08.001.61" displayName="高中" objectID="dl_Education_61" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR02.08.001" code="HR02.08.001.81" displayName="國中" objectID="dl_Education_81" dataType="option" format=""></subcode>
+    <subcode codeSystem="1" codeSystemName="大陸健康文件檔" codeSet="HR02.08.001" code="HR02.08.001.01" displayName="小學" objectID="dl_Education_01" dataType="option" format=""></subcode>   
+  </code>
+</codes>

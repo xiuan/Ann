@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Module_Diagnosis</title>
+
+</head>
+
+<style type="text/css">
+        #css_table
+        {
+            display: table;
+        }
+        .css_tr
+        {
+            display: table-row;
+        }
+        .css_td
+        {
+            display: table-cell;
+        }
+ </style>
+ 
+<body>
+    <div id="div_Module_Diagnosis">
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_PlacerOrderNumber">
+                    &nbsp; 醫令編碼</label>
+                <input id="tx_PlacerOrderNumber" name="tx_PlacerOrderNumber" type="text" />
+            </div>
+               
+            <div class="css_td">
+                <label for="tx_FillerOrderNumber">
+                    &nbsp; 部門編碼</label>
+                <input id="tx_FillerOrderNumber" name="tx_FillerOrderNumber" type="text" />
+            </div>
+        </div>
+            
+        <div class="css_tr"> 
+            <div class="css_td">
+                <label for="tx_ObservationDateTime">
+                    &nbsp; 觀察日期</label>
+                <input id="tx_ObservationDateTime" name="tx_ObservationDateTime" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_ObservationEndDateTime">
+                    &nbsp; 觀察結束日期</label>
+                <input id="tx_ObservationEndDateTime" name="tx_ObservationEndDateTime" type="text" />
+            </div> 
+        </div>
+        
+        <div class="css_tr"> 
+            <div class="css_td">
+                <label for="tx_RelevantClinicalInformation">
+                    &nbsp; 臨床資訊</label>
+                <input id="tx_RelevantClinicalInformation" name="tx_RelevantClinicalInformation" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_ResultsRptStatusChng-DateTime">
+                    &nbsp; 檢驗結果日期</label>
+                <input id="tx_ResultsRptStatusChng" name="tx_ResultsRptStatusChng" type="text" />
+            </div> 
+        </div>
+        
+        <div class="css_tr"> 
+            <div class="css_td">
+                <label for="tx_DiagnosticServSectID">
+                    &nbsp; 診斷編碼</label>
+                <input id="tx_DiagnosticServSectID" name="tx_DiagnosticServSectID" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_ResultStatus">
+                    &nbsp; 結果狀態</label>
+                <input id="tx_ResultStatus" name="tx_ResultStatus" type="text" />
+            </div>
+        </div>
+        
+        <div class="css_tr"> 
+            <div class="css_td">
+                <label for="tx_PrincipalResultInterpreter">
+                    &nbsp; 主訴</label>
+                <textarea id="tx_PrincipalResultInterpreter" name="tx_PrincipalResultInterpreter" cols="35" rows="4"></textarea>
+            </div>
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_Technician">
+                    &nbsp; 檢驗人員</label>
+                <input id="tx_Technician" name="tx_Technician" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_ScheduledDateTime">
+                    &nbsp; 排程時間</label>
+                <input id="tx_ScheduledDateTime" name="tx_ScheduledDateTime" type="text" />
+            </div>  
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_DiagnosticianName">
+                    &nbsp; 診斷醫師姓名</label>
+                <input id="tx_DiagnosticianName" name="tx_DiagnosticianName" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="tx_DiagnosisDate">
+                    &nbsp; 診斷日期</label>
+                <input id="tx_DiagnosisDate" name="tx_DiagnosisDate" type="text" />
+            </div>  
+        </div>
+        
+        <div class="css_tr">
+                <label for="dl_BreastUltrasoundExamination">
+                    &nbsp; 乳房超音波檢查</label>
+                    <select id="dl_BreastUltrasoundExamination">
+                        <option id="dl_BreastUltrasoundExamination_1">正常</option>
+                        <option id="dl_BreastUltrasoundExamination_2">缺失</option>
+                        <option id="dl_BreastUltrasoundExamination_3">增厚</option>
+                        <option id="dl_BreastUltrasoundExamination_4">腫塊</option>
+                        <option id="dl_BreastUltrasoundExamination_5">壓痛</option>
+                        <option id="dl_BreastUltrasoundExamination_6">乳腺增生</option>
+                        <option id="dl_BreastUltrasoundExamination_7">一個纖維瘤</option>
+                        <option id="dl_BreastUltrasoundExamination_8">多個纖維瘤</option>
+                        <option id="dl_BreastUltrasoundExamination_9">結節</option>
+                        <option id="dl_BreastUltrasoundExamination_10">溢液</option>
+                        <option id="dl_BreastUltrasoundExamination_11">乳腺癌</option>
+                    </select>
+        </div>
+        
+        <div class="css_tr">
+                <label for="dl_CT">
+                    &nbsp; 電腦斷層結果</label>
+                    <select id="dl_CT">
+                        <option id="dl_CT_1">正常</option>
+                        <option id="dl_CT_2">缺失</option>
+                        <option id="dl_CT_3">增厚</option>
+                        <option id="dl_CT_4">腫塊</option>
+                        <option id="dl_CT_5">壓痛</option>
+                        <option id="dl_CT_6">乳腺增生</option>
+                        <option id="dl_CT_7">一個纖維瘤</option>
+                        <option id="dl_CT_8">多個纖維瘤</option>
+                        <option id="dl_CT_9">結節</option>
+                        <option id="dl_CT_10">溢液</option>
+                        <option id="dl_CT_11">乳腺癌</option>
+                    </select>
+        </div>
+        
+         <div class="css_tr">
+            <div class="css_td">
+                <label for="tx_TumorDiagnosisCode">
+                    &nbsp; 腫瘤診斷代碼</label>
+                <input id="tx_TumorDiagnosisCode" name="tx_TumorDiagnosisCode" type="text" />
+            </div>
+            
+            <div class="css_td">
+                <label for="dl_ClinicalStageCode">
+                    &nbsp; 腫瘤臨床分期代碼</label>
+                    <select id="dl_ClinicalStageCode">
+                        <option id="dl_ClinicalStageCode_1">0-Ⅰ期</option>
+                        <option id="dl_ClinicalStageCode_2">Ⅱ期</option>
+                        <option id="dl_ClinicalStageCode_3">Ⅲ期</option>
+                        <option id="dl_ClinicalStageCode_4">Ⅳ期</option>
+                        <option id="dl_ClinicalStageCode_5">無法判定</option>
+                    </select>
+            </div>  
+        </div>
+        
+        <div class="css_tr">
+            <div class="css_td">
+                <label for="dl_TNMClinicalT">
+                    &nbsp; TNM分期-T</label>
+                    <select id="dl_TNMClinicalT">
+                        <option id="dl_TNMClinicalT_1">Tx</option>
+                        <option id="dl_TNMClinicalT_2">T0</option>
+                        <option id="dl_TNMClinicalT_3">Tis</option>
+                        <option id="dl_TNMClinicalT_4">T1</option>
+                        <option id="dl_TNMClinicalT_5">T2</option>
+                        <option id="dl_TNMClinicalT_6">T3</option>
+                        <option id="dl_TNMClinicalT_7">T4</option>
+                    </select>
+            </div>
+            
+            <div class="css_td">
+                <label for="dl_TNMClinicalN">
+                    &nbsp; TNM分期-N</label>
+                    <select id="dl_TNMClinicalN">
+                        <option id="dl_TNMClinicalN_1">Nx</option>
+                        <option id="dl_TNMClinicalN_2">N0</option>
+                        <option id="dl_TNMClinicalN_3">N1</option>
+                        <option id="dl_TNMClinicalN_4">N2</option>
+                        <option id="dl_TNMClinicalN_5">N3</option>
+                    </select>
+            </div>
+            
+            <div class="css_td">
+                <label for="dl_TNMClinicalM">
+                    &nbsp; TNM分期-M</label>
+                    <select id="dl_TNMClinicalM">
+                        <option id="dl_TNMClinicalM_1">Mx</option>
+                        <option id="dl_TNMClinicalM_2">M0</option>
+                        <option id="dl_TNMClinicalM_3">M1</option>
+                    </select>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>

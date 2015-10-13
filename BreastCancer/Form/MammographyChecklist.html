@@ -1,0 +1,449 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>婦女乳房攝影檢查表</title>
+    <script language="JavaScript" type="text/javascript" src="../CallBack.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../SaveData.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../ReadXML.js"></script>
+
+    <style tyle="text/css">
+        .style1 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+        }
+
+        .style2 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: center;
+            font-weight: bold;
+            height: 22px;
+        }
+
+        .style3 {
+            font-weight: normal;
+        }
+
+        .style4 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+        }
+
+        .style5 {
+            width: 100%;
+            border: 1px solid #000000;
+        }
+
+        .auto-style1 {
+            text-align: left;
+            width: 430px;
+            border-style: solid;
+            border-width: 1px;
+        }
+        .auto-style2 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 155px;
+        }
+        .auto-style3 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 33px;
+        }
+        .auto-style4 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 40px;
+        }
+        .auto-style6 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 62px;
+        }
+        .auto-style7 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 63px;
+        }
+        .auto-style8 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 64px;
+        }
+        .auto-style9 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 38px;
+        }
+        .auto-style10 {
+            border-style: solid;
+            border-width: 1px;
+            text-align: left;
+            width: 34px;
+        }
+
+        #Text7 {
+            width: 143px;
+        }
+
+        #Text1 {
+            width: 170px;
+        }
+
+        #Text2 {
+            width: 170px;
+        }
+        #Text8 {
+            width: 104px;
+        }
+        #Text9 {
+            width: 39px;
+        }
+        #Text10 {
+            width: 707px;
+        }
+        #Text14 {
+            width: 60px;
+        }
+        #Text21 {
+            width: 60px;
+        }
+        #Text22 {
+            width: 60px;
+        }
+        #Text23 {
+            width: 60px;
+        }
+        #Text24 {
+            width: 60px;
+        }
+        #Text25 {
+            width: 60px;
+        }
+        #Text26 {
+            width: 60px;
+        }
+        #Text27 {
+            width: 25px;
+        }
+        #Text30 {
+            width: 25px;
+        }
+        #Text31 {
+            width: 25px;
+        }
+        #Text32 {
+            width: 25px;
+        }
+        #Text33 {
+            width: 25px;
+        }
+        #Text34 {
+            width: 25px;
+        }
+        #Text35 {
+            width: 25px;
+        }
+        #Text38 {
+            width: 104px;
+        }
+        #Text11 {
+            width: 25px;
+        }
+        #Text12 {
+            width: 25px;
+        }
+        #Radio1 {
+            height: 20px;
+        }
+        </style>
+</head>
+<body style="height: 1553px">
+    <form style="text-align: center">
+        婦女乳房攝影檢查表<b><br />
+            <br />
+        </b>
+        <table align="center" class="style1">
+            <tr>
+                <td class="style1" colspan="2">
+                    支付方式：<input id="Radio1" type="radio" name="payway" />預防保健&nbsp; 
+                    <input id="Radio2" type="radio" name="payway" />健保醫療給付&nbsp; 
+                    <input id="Radio3" type="radio" name="payway" />其他公務預算補助&nbsp; 
+                    <input id="Radio4" type="radio" name="payway" />自費健康檢查&nbsp; 
+                    <input id="Radio5" type="radio" name="payway" />其他 </td>
+            </tr>
+            <tr>
+                <td class="auto-style1">
+                    乳房攝影車篩檢：<input id="Radio6" type="radio" name="Screening_mammography_car" />否<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="Radio7" type="radio" name="Screening_mammography_car" />是〈 車牌：<input id="Text1" type="text" /> 〉
+                </td>
+                <td class="style1">
+                    病歷號：
+                    <input id="Text2" type="text" /></td>
+            </tr>
+            <tr>
+                <td class="style2" colspan="2">一、個人基本資料(調查婦女填寫)</td>
+            </tr>
+            <tr>
+                <td class="auto-style1" rowspan="2">姓名：<input id="Text3" type="text" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                <td class="style1">身分證字號：<input id="Text4" type="text" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                </td>
+            </tr>
+            <tr>
+                <td class="style1">護照號碼（外籍人士）：<input id="Text5" type="text" /></td>
+            </tr>
+            <tr>
+                <td class="auto-style1">出生日期：<input id="Text8" type="text" value="年/月/日" /></td>
+                <td class="style1">聯絡資訊： 電話：<input id="Text6" type="text" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手機：<input id="Text7" type="text" /></td>
+            </tr>
+            <tr>
+                <td class="style1" colspan="2">現居住地址：&nbsp; 鄉鎮市區代碼 : 
+                    <input id="Text9" type="text" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Text10" type="text" /></td>
+            </tr>
+            <tr>
+                <td class="style1" colspan="2">教育程度：
+                    <input id="Radio8" type="radio" name="education_level" />1. 不識字&nbsp;
+                    <input id="Radio9" type="radio" name="education_level" />2. 小學&nbsp;
+                    <input id="Radio10" type="radio" name="education_level" />3. 國(初)中&nbsp;
+                    <input id="Radio11" type="radio" name="education_level" />4. 高中/專科&nbsp;
+                    <input id="Radio12" type="radio" name="education_level" />5. 大學以上</tr>
+            <tr>
+                <td class="style1" colspan="2">其他資訊：&nbsp;&nbsp; 身高：<input id="Text11" type="text" /> cm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 體重：  
+                    <input id="Text12" type="text" />kg</td>
+            </tr>
+            <tr>
+                <td class="style2" colspan="2">二、個案臨床資料 (檢查婦女填寫)</td>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    1.疾病史：有無得過下列疾病？<br /><span class="style3">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="Radio13" type="radio" name="disease" />有，疾病為：
+                        <input id="Radio15" type="radio" name="diseasecheck" />1. 乳房良性相關疾病&nbsp;
+                        <input id="Radio16" type="radio" name="diseasecheck" />2. 乳癌&nbsp;
+                        <input id="Radio17" type="radio" name="diseasecheck" />3. 其他癌症：<input id="Text13" type="text" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="Radio14" type="radio" name="disease" />無</td>
+                    </span>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">2. 家族史：與您有血緣的家屬中，有無人得過乳癌？<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="Radio18" type="radio" name="family" /><span class="style29">有，請填寫下方表格：&nbsp;
+                    <table class="style5">
+                        <tr>
+                            <td class="auto-style2">血緣關係</td>
+                            <td class="auto-style6">母親</td>
+                            <td class="auto-style6">姊妹</td>
+                            <td class="auto-style6">女兒</td>
+                            <td class="auto-style6">祖母</td>
+                            <td class="auto-style8">外祖母</td>
+                            <td class="auto-style6">姑姑</td>
+                            <td class="auto-style6">阿姨</td>
+                        </tr>
+                        <tr>
+                            <td class="auto-style2">罹患乳癌人數</td>
+                            <td class="auto-style10"> 
+                                <input id="Text14" type="text" /></td>
+                            <td class="auto-style6"> 
+                    <span class="style3">
+                                <input id="Text21" type="text" /></span></td>
+                            <td class="auto-style7"> 
+                    <span class="style3">
+                                <input id="Text22" type="text" /></span></td>
+                            <td class="auto-style4"> 
+                    <span class="style3">
+                                <input id="Text23" type="text" /></span></td>
+                            <td class="auto-style8"> 
+                    <span class="style3">
+                                <input id="Text24" type="text" /></span></td>
+                            <td class="auto-style9"> 
+                    <span class="style3">
+                                <input id="Text25" type="text" /></span></td>
+                            <td class="auto-style3"> 
+                    <span class="style3">
+                                <input id="Text26" type="text" /></span></td>
+                        </tr>
+                    </table>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<input id="Radio19" type="radio" name="family" />無 </span> 
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    3. 月經史：初經年齡<input id="Text27" type="text" />歲(實歲)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 是否已停經?<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                        <span class="style3">
+                    <input id="Radio20" type="radio" name="MC" />是，停經年齡<input id="Text28" type="text" />歲(實歲)；停經原因：
+                    <input id="Radio22" type="radio" name="MCcheck" />自然停經  
+                    <input id="Radio23" type="radio" name="MCcheck" />子宮切除  
+                    <input id="Radio24" type="radio" name="MCcheck" />卵巢切除  
+                    <input id="Radio25" type="radio" name="MCcheck" />其他：<input id="Text29" type="text" /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio21" type="radio" name="MC" />否 </span>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    4.生育史：生產次數<input id="Text30" type="text" />次<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 有無哺餵母乳(至少某胎哺餵母乳一個月以上)：<span class="style3">
+                    <input id="Radio26" type="radio" name="birth" />有&nbsp;&nbsp; 
+                    <input id="Radio27" type="radio" name="birth" />無<br />
+                </span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 第一胎生產實足年齡
+                    <input id="Text31" type="text" />歲
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    5. 用藥史：是否服用荷爾蒙補充劑？<span class="style29"><input id="Radio28" type="radio" name="Medication1" />是：<input id="Text32" type="text" />歲開始，服用<input id="Text33" type="text" />年<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio29" type="radio" name="Medication1" />否<br /></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 是否服用口服避孕藥？&nbsp;&nbsp;&nbsp; <span class="style3">
+                    <input id="Radio30" type="radio" name="Medication2" />是：<input id="Text34" type="text" />歲開始，服用<input id="Text35" type="text" />年<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio31" type="radio" name="Medication2" />否
+                    </span>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    6. 是否有感覺到異常腫塊？<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="style3">
+                    <input id="Radio32" type="radio" name="Bump" />有摸到硬塊或疼痛、壓，請在右圖相關位置標示「 X」<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio33" type="radio" name="Bump" />沒有症狀<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio34" type="radio" name="Bump" />未做過乳房自我檢查
+                    </span> 
+                </td>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    7. 最近二年內是否曾做過下列檢查(可複選)？<br /><span class="style3">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Checkbox1" type="checkbox" name="Inspection" />醫護人員觸診&nbsp; 
+                    <input id="Checkbox2" type="checkbox" name="Inspection" />乳房攝影檢查&nbsp; 
+                    <input id="Checkbox3" type="checkbox" name="Inspection" />乳房超音波檢查&nbsp; 
+                    <input id="Checkbox4" type="checkbox" name="Inspection" />以上皆未做過
+                    </span>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    8.&nbsp; 是否曾接受過乳房手術？<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="style3">
+                    <input id="Radio35" type="radio" name="Breast_surgery" />是：〈<input id="Checkbox5" type="checkbox" name="Breast_surgery_check" />左側，<input id="Checkbox6" type="checkbox" name="Breast_surgery_check" />右側〉<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input id="Radio36" type="radio" name="Breast_surgery" />否</span></td>
+            </tr>
+            <tr>
+                <td class="style2" colspan="2">三、乳房攝影檢查結果(乳房攝影醫院填寫)</td>
+            </tr>
+            <tr>
+                <td class="auto-style12"> 
+                    乳房攝影醫院名稱：
+                    <input id="Text36" type="text" /></td>
+                <td class="style4">
+                     代碼(10碼)：
+                     <input id="Text37" type="text" /></td>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    乳房攝影日期：<input id="Text38" type="text" value="年/月/日" /><br />
+                </td>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2">
+                    攝影儀機型：<span class="style3">
+                    <input id="Radio37" type="radio" name="Model" />傳統乳房攝影儀&nbsp; 
+                    <input id="Radio38" type="radio" name="Model" />數位乳房攝影儀（Computed Radiography, CR）
+                    <input id="Radio39" type="radio" name="Model" />數位乳房攝影儀（Digital Radiography, DR）
+                    </span>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2"> 
+                    此次乳房觸診檢查結果：<span class="style3"><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio40" type="radio" name="Check_results" />有腫塊或其他異常 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio41" type="radio" name="Check_results" />無異常  
+                    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio42" type="radio" name="Check_results" />未做
+                        </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2"> 
+                    乳腺組成<span class="style3">：<input id="Radio43" type="radio" name="Breast_Composition" />Fatty breast&nbsp;
+                    <input id="Radio44" type="radio" name="Breast_Composition" />Mildly dense&nbsp;
+                    <input id="Radio45" type="radio" name="Breast_Composition" />Moderate dense&nbsp;
+                    <input id="Radio46" type="radio" name="Breast_Composition" />Extremely dense
+                        </span>
+                    <br />
+
+                </td>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2"> 
+                    與舊片比較：<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="style3">
+                    <input id="Radio47" type="radio" name="compare" />是<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio48" type="radio" name="compare" />否；理由為： 
+                    <input id="Radio49" type="radio" name="compare_check" />第一次篩檢&nbsp; 
+                    <input id="Radio50" type="radio" name="compare_check" />無法取得舊片&nbsp; 
+                    <input id="Radio51" type="radio" name="compare_check" />無法獲知是否有舊片</span><br />
+
+                </td>
+            </tr>
+            <tr>
+                <td class="style4" colspan="2"> 
+                    乳房攝影檢查結果( Category 0, 3, 4, 5 需加填乳房攝影檢查異常個案報告表 )：<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="style3">
+                    <input id="Radio52" type="radio" name="results" />(0)需附加其他影像檢查再評估(Category 0: Need Additional Imaging Evaluation.)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio53" type="radio" name="results" />(1)無異常發現 (Category 1: Negative.)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio54" type="radio" name="results" />(2)良性發現 (Category 2: Benign Finding)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio55" type="radio" name="results" />(3)可能是良性發現－需六個月追蹤檢查 (Category 3: Probably Benign Finding－Short Interval Follow-Up Suggested.)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio56" type="radio" name="results" />(4)可疑異常需考慮組織生檢 (Category 4: Suspicious Abnormality－Biopsy Should Be Considered.)
+                    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Low suspicion<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. Intermediate suspicion<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. Moderate suspicion<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input id="Radio57" type="radio" name="results" />(5)高度疑似為惡性腫瘤必須採取適當的措施 (Category 5: Highly Suggestive of Malignancy－Appropriate Action Should Be Taken.)</span><br />
+                </td>    
+            </tr>
+            <tr>
+                <td class="auto-style12">
+                    放射科醫生
+                    ：<input id="Text39" type="text" /></td> 
+                <td class="auto-style12">
+                    醫事放射師
+                <span class="style3">：<input id="Text40" type="text" /></span></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" >
+                    <input id="Button1" type="button" value="建檔" onclick="return Save(0)" aria-orientation="horizontal" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
